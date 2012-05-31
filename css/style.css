@@ -1,0 +1,39 @@
+/* 
+    Document   : style
+    Created on : 24 août 2011, 00:26:53
+    Author     : Frantz DARIBO
+    Description:
+        Style de la page de présentation de FCalc.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+  display: block;
+}
+
+body{
+  background: url(../img/background.jpg) top left repeat;
+  margin: 0 auto;
+  padding: 0;
+  min-height: 100%;
+}
+
+#head {
+  padding: 0.2em 0;
+  width: 217px;
+}
+
+.wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+#foot {
+    padding: 5px;
+    font-size: 0.75em;
+}

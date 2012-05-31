@@ -1,0 +1,220 @@
+/* 
+    Document   : fcalc
+    Created on : 30 nov. 2011, 15:09:25
+    Author     : Frantz DARIBO
+    Description:
+        Feuille de style relative a la class FCALC.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+#fcalc {      
+  padding: 9px;
+  border-spacing: 7px;
+  background: url(../img/bgcalc.png) top left no-repeat;
+}
+
+#fcalc td {
+  height: 25px;
+  width: 39px;
+  color: #fff;
+  text-align: center;
+}
+
+#affichage {
+  margin: 10px 0;
+  width: 170px;
+  height: 38px;
+  background: url(../img/screen.png) top left no-repeat;
+}
+
+#resultat{
+  height: 40px;
+  width: 152px;
+  display: inline-block;
+  padding-top:  15px;
+  font-family: "Times New Roman", Times, "Liberation Serif", FreeSerif, serif;
+  overflow: hidden;
+  color: #626455;
+  text-align: right;
+}
+
+.nombres td {
+  background: url(../img/sprite.png) no-repeat;
+  text-indent: -5000px;
+}
+
+/*            1ERE LIGNE              */
+
+.nombres #zero{
+  background-position: top left;
+}
+
+.nombres #zero:hover{
+  background-position: 0 -27px;
+}
+
+.nombres #dot{
+  background-position: -45px 0px;
+}
+
+.nombres #dot:hover{
+  background-position: -45px -27px;
+}
+
+.nombres #c{
+  background-position: -90px 0px;
+}
+
+.nombres #c:hover{
+  background-position: -90px -27px;
+}
+
+.nombres #egal{
+  background-position: -135px 0px;
+}
+
+.nombres #egal:hover{
+  background-position: -135px -27px;
+}
+
+/*            2EME LIGNE              */
+
+.nombres #un{
+  background-position: 0px -54px;
+}
+
+.nombres #un:hover{
+  background-position: 0px -81px;
+}
+
+.nombres #deux{
+  background-position: -45px -54px;
+}
+
+.nombres #deux:hover{
+  background-position: -45px -81px;
+}
+
+.nombres #trois{
+  background-position: -90px -54px;
+}
+
+.nombres #trois:hover{
+  background-position: -90px -81px;
+}
+
+.nombres #plus{
+  background-position: -135px -54px;
+}
+
+.nombres #plus:hover{
+  background-position: -135px -81px;
+}
+
+/*            3eme LIGNE              */
+
+.nombres #quatre{
+  background-position: 0px -108px;
+}
+
+.nombres #quatre:hover{
+  background-position: 0px -135px;
+}
+
+.nombres #cinq{
+  background-position: -45px -108px;
+}
+
+.nombres #cinq:hover{
+  background-position: -45px -135px;
+}
+
+.nombres #six{
+  background-position: -90px -108px;
+}
+
+.nombres #six:hover{
+  background-position: -90px -135px;
+}
+
+.nombres #moins{
+  background-position: -135px -108px;
+}
+
+.nombres #moins:hover{
+  background-position: -135px -135px;
+}
+/*            4EME LIGNE              */
+.nombres #sept{
+  background-position: 0px -162px;
+}
+
+.nombres #sept:hover{
+  background-position: 0px -189px;
+}
+
+.nombres #huit{
+  background-position: -45px -162px;
+}
+
+.nombres #huit:hover{
+  background-position: -45px -189px;
+}
+
+.nombres #neuf{
+  background-position: -90px -162px;
+}
+
+.nombres #neuf:hover{
+  background-position: -90px -189px;
+}
+
+.nombres #multiplie{
+  background-position: -135px -162px;
+}
+
+.nombres #multiplie:hover{
+  background-position: -135px -189px;
+}
+
+/*            5EME LIGNE LIGNE              */
+
+.nombres #mrc{
+  background-position: 0px -216px;
+}
+
+.nombres #mrc:hover{
+  background-position: 0px -243px;
+}
+
+.nombres #mrmoins{
+  background-position: -45px -216px;
+}
+
+.nombres #mrmoins:hover{
+  background-position: -45px -243px;
+}
+
+.nombres #mrplus{
+  background-position: -90px -216px;
+}
+
+.nombres #mrplus:hover{
+  background-position: -90px -243px;
+}
+
+.nombres #divise{
+  background-position: -135px -216px;
+}
+
+.nombres #divise:hover{
+  background-position: -135px -243px;
+}
